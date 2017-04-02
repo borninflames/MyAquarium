@@ -24,6 +24,9 @@ Ext.application({
         'Actions',
         'Devices'
     ],
+    models: ['Device', 'Settings'],
+    controllers: ['Settings'],
+    stores: ['Settings'],
 
     icon: {
         '57': 'resources/icons/Icon.png',

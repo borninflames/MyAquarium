@@ -1,9 +1,37 @@
 Ext.define('MyAquarium.view.Settings', {
-    extend: 'Ext.Panel',
+    extend: 'Ext.form.Panel',
     xtype: 'settingscard',
+    id: 'settingsForm',
     config: {
         title: "Settings",
         iconCls: 'settings',
-        html: "Settings"
+        items: [    
+            {
+                xtype: 'titlebar',
+                docked: 'top',
+                title: 'Settings',
+            },
+            {
+                xtype: 'textfield',
+                name : 'ipAddress',
+                label: 'ipAddress'
+            },
+            {
+                xtype: 'textfield',
+                name : 'name',
+                label: 'Name'
+            },
+            {
+                xtype: 'emailfield',
+                name : 'email',
+                label: 'Email'
+            },
+            {
+                xtype: 'passwordfield',
+                name : 'password',
+                label: 'Password'
+            }                
+        ]
     }
 });
+
