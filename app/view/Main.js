@@ -9,14 +9,14 @@ Ext.define('MyAquarium.view.Main', {
     config: {
         tabBar: {
             docked: 'bottom',
-            layout: {
+            layout: {             
                 pack: 'center'
-            },
+            }
         },
         items: [
             { xtype: 'homecard' },
             { xtype: 'settingscard' },
-            { xtype: 'actionscard' },
+            { xtype: 'actionscard' }
         ]
     }
 });

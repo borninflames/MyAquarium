@@ -1891,7 +1891,7 @@ Ext.Loader.addClassPathMappings({
   "Ext.Element-static": "../../touch/src/dom/Element.static.js",
   "Ext.Element-style": "../../touch/src/dom/Element.style.js",
   "Ext.Element-traversal": "../../touch/src/dom/Element.traversal.js",
-  "Ext.cmd": "../../../../../C:/Users/borni/bin/Sencha/Cmd/6.2.2.36/plugins/src",
+  "Ext.cmd": "../../../../../../C:/Users/borni/bin/Sencha/Cmd/6.2.2.36/plugins/src",
   "Ext.core.DomQuery": "../../touch/src/dom/Query.js",
   "Ext.device.Purchases.Product": "../../touch/src/device/purchases/Sencha.js",
   "Ext.device.filesystem.DirectoryEntry": "../../touch/src/device/filesystem/Sencha.js",
@@ -2528,8 +2528,11 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
+  "MyAquarium.controller.Settings": [],
   "MyAquarium.model.Device": [],
+  "MyAquarium.model.Settings": [],
   "MyAquarium.store.Devices": [],
+  "MyAquarium.store.Settings": [],
   "MyAquarium.view.Actions": [],
   "MyAquarium.view.Devices": [],
   "MyAquarium.view.Home": [],
@@ -3252,8 +3255,11 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
+  "MyAquarium.controller.Settings": [],
   "MyAquarium.model.Device": [],
+  "MyAquarium.model.Settings": [],
   "MyAquarium.store.Devices": [],
+  "MyAquarium.store.Settings": [],
   "MyAquarium.view.Actions": [
     "widget.actionscard"
   ],

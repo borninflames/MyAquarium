@@ -9,7 +9,7 @@ Ext.define('MyAquarium.view.Settings', {
             {
                 xtype: 'titlebar',
                 docked: 'top',
-                title: 'Settings',
+                title: 'Settings'
             },
             {
                 xtype: 'textfield',

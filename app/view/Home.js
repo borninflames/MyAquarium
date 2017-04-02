@@ -2,7 +2,7 @@ Ext.define('MyAquarium.view.Home', {
     extend: 'Ext.Panel',
     xtype: 'homecard',
     requires: [
-        'MyAquarium.view.Devices',
+        'MyAquarium.view.Devices' 
     ],
     config: {
         title: "Home",
@@ -12,12 +12,12 @@ Ext.define('MyAquarium.view.Home', {
             {
                 xtype: 'titlebar',
                 docked: 'top',
-                title: 'Home',
+                title: 'Home'
             },
             { 
                 xtype: 'deviceslist',
                 flex: 1
             }
-        ],
+        ]
     }    
 });

@@ -51,7 +51,6 @@ Ext.define('MyAquarium.view.Devices', {
             { firstName: "George", middleInitial: "W", lastName: "Bush" },
             { firstName: "Barack", lastName: "Obama" }
         ]
-        },
-        
+        }        
     }
 });

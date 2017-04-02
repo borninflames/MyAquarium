@@ -6,15 +6,5 @@ Ext.define('MyAquarium.model.Device', {
             type: 'localstorage',
             id  : 'my-aquarium-devices'
         }
-    },
-
-    // fullName: function() {
-    //     var d = this.data,
-    //     names = [
-    //         d.firstName,
-    //         (!d.middleInitial ? "" : d.middleInitial + "."),
-    //         d.lastName
-    //     ];
-    //     return names.join(" ");
-    // }
+    }
 });
