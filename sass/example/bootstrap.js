@@ -2534,6 +2534,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "MyAquarium.store.Devices": [],
   "MyAquarium.store.Settings": [],
   "MyAquarium.view.Actions": [],
+  "MyAquarium.view.DeviceListItem": [],
   "MyAquarium.view.Devices": [],
   "MyAquarium.view.Home": [],
   "MyAquarium.view.Main": [],
@@ -3262,6 +3263,9 @@ Ext.ClassManager.addNameAliasMappings({
   "MyAquarium.store.Settings": [],
   "MyAquarium.view.Actions": [
     "widget.actionscard"
+  ],
+  "MyAquarium.view.DeviceListItem": [
+    "widget.devicelistitem"
   ],
   "MyAquarium.view.Devices": [
     "widget.deviceslist"

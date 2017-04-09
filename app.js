@@ -22,11 +22,11 @@ Ext.application({
         'Home',
         'Settings',
         'Actions',
-        'Devices'
+        'Devices', 'DeviceListItem'
     ],
     models: ['Device', 'Settings'],
     controllers: ['Settings'],
-    stores: ['Settings'],
+    stores: ['Settings', 'Devices'],
 
     icon: {
         '57': 'resources/icons/Icon.png',

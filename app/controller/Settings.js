@@ -11,10 +11,8 @@ Ext.define('MyAquarium.controller.Settings', {
     },
     launch: function(){
 
-        var settingsStore = Ext.getStore('Settings');
-        settingsStore.load(function(records, operation, success){
-            console.log(records);
-        });
+        var settingsStore = Ext.getStore('SettingsStore');
+        settingsStore.load();
         
         var defaultSettings = settingsStore.first();
         if (!defaultSettings) {
