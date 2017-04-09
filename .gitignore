@@ -1,4 +1,5 @@
-/.sencha/
-/.vscode/
-/build/
-/cordova/platforms/
+.sencha/
+.vscode/
+build/
+cordova/platforms/*
+cordova/platforms/**/*

@@ -12,11 +12,9 @@
 
 Ext.application({
     name: 'MyAquarium',
-
     requires: [
         'Ext.MessageBox'
     ],
-
     views: [
         'Main',
         'Home',
@@ -25,7 +23,7 @@ Ext.application({
         'Devices', 'DeviceListItem'
     ],
     models: ['Device', 'Settings'],
-    controllers: ['Settings'],
+    controllers: ['Settings', 'Devices'],
     stores: ['Settings', 'Devices'],
 
     icon: {

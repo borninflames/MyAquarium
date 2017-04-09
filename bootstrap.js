@@ -658,6 +658,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
+  "MyAquarium.controller.Devices": [],
   "MyAquarium.controller.Settings": [],
   "MyAquarium.model.Device": [],
   "MyAquarium.model.Settings": [],
@@ -1386,6 +1387,7 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
+  "MyAquarium.controller.Devices": [],
   "MyAquarium.controller.Settings": [],
   "MyAquarium.model.Device": [],
   "MyAquarium.model.Settings": [],

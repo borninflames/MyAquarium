@@ -5,7 +5,7 @@ Ext.define('MyAquarium.store.Devices', {
         autoSync: true,
         model: 'MyAquarium.model.Device',
         storeId: 'DevicesStore',
-        sorters: 'order',
+        sorters: 'order'
         // data: [
         //     {
         //         name: 'Device1',

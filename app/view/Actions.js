@@ -1,6 +1,10 @@
 Ext.define('MyAquarium.view.Actions', {
     extend: 'Ext.Panel',
     xtype: 'actionscard',
+    requires: [
+        'Ext.TitleBar',
+        'Ext.Img'
+    ],
     config: {
         title: "Actions",
         iconCls: 'action',

@@ -2,6 +2,10 @@ Ext.define('MyAquarium.view.Settings', {
     extend: 'Ext.form.Panel',
     xtype: 'settingscard',
     id: 'settingsForm',
+    requires: [
+        'Ext.field.Email',
+        'Ext.field.Password'
+    ],
     config: {
         title: "Settings",
         iconCls: 'settings',
