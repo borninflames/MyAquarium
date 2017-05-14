@@ -65,7 +65,7 @@ Ext.define('MyAquarium.controller.Devices', {
                     relayId: 8
                 }
             ];
-            devicesStore.loadData(defaultData);
+            devicesStore.setData(defaultData);
         }
     }
 });
